@@ -11,17 +11,16 @@
     "webpack": "latest",
     "webpack-dev-server": "latest"
   },
-  "devDependencies": {
-    "style-loader": "latest",
-    "css-loader": "latest",
-    "sass-loader": "latest"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^0.26.1",
-    "node-sass": "^4.5.0",
-    "sass-loader": "^4.1.1",
-    "style-loader": "^0.13.1"
+    "css-loader": "latest",
+    "node-sass": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "jshint-loader": "latest",
+    "babel-loader": "latest",
+    "ng-annotate-loader": "latest",
+    "babel-preset-es2015": "latest"
   }
 }

@@ -23,6 +23,11 @@ module.exports = {
       {
         test: /\.scss$/,
         loader: 'style-loader!css-loader!sass-loader'
+      },
+      {
+    	test: /\.js$/,
+   	loader: 'ng-annotate-loader!babel-loader?presets[]=es2015!jshint-loader',
+   	exclude: /node_modules|bower_components/
       }
     ]
   },
